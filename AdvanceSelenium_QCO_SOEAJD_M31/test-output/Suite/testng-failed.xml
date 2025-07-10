@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Campaign.CampaignCreationTest">
+        <methods>
+          <include name="BT"/>
+          <include name="As"/>
+          <include name="Ac"/>
+          <include name="At"/>
+          <include name="BS"/>
+          <include name="Bc"/>
+          <include name="BM"/>
+          <include name="campaignCreationTest"/>
+          <include name="AM"/>
+        </methods>
+      </class> <!-- Campaign.CampaignCreationTest -->
+      <class name="Contact.ContactCreationTest">
+        <methods>
+          <include name="Ac"/>
+          <include name="BT"/>
+          <include name="As"/>
+          <include name="At"/>
+          <include name="contactCreationTest"/>
+          <include name="BS"/>
+          <include name="Bc"/>
+          <include name="BM"/>
+          <include name="AM"/>
+        </methods>
+      </class> <!-- Contact.ContactCreationTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
